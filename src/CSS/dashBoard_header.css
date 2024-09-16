@@ -1,0 +1,18 @@
+.svgHuge {
+  background-size: 36px;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.groupSvg_huge {
+  background-image: url(../img/group_blue.svg);
+}
+.documentSvg_huge {
+  background-image: url(../img/document_blue.svg);
+}
+.bankSvg_huge {
+  background-image: url(../img/pig-piggy-bank_blue.svg);
+}
+.handsSvg_huge {
+  background-image: url(../img/hands-helping_blue.svg);
+}
