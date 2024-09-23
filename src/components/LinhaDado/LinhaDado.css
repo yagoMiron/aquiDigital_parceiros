@@ -1,0 +1,6 @@
+.linhaDado {
+  @apply text-blue-900 text-lg w-1/2;
+}
+.linhaDado strong {
+  @apply ml-6;
+}
