@@ -1,9 +1,0 @@
-.campo {
-  @apply flex flex-col w-full;
-}
-.campo label {
-  @apply text-left mx-1.5;
-}
-.campo input {
-  @apply w-full rounded-md border border-blue-950 text-blue-950 text-base py-2.5 px-4;
-}
