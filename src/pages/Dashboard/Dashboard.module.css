@@ -1,0 +1,46 @@
+.page {
+  @apply flex box-border min-h-screen;
+}
+
+.page section {
+  @apply grow min-h-screen flex flex-col;
+}
+
+.page section main {
+  @apply flex flex-col bg-slate-200 grow items-center py-12 gap-10 w-full;
+}
+
+.addBtn {
+  @apply mx-auto bg-blue-900 rounded-3xl px-10 py-2 text-lg mt-8 text-white font-bold border-2 border-blue-900;
+}
+.addBtn:hover {
+  @apply bg-white text-blue-900;
+}
+.container {
+  @apply bg-white w-11/12 rounded-3xl px-10 py-8 shadow-lg flex flex-col;
+}
+.container h3 {
+  @apply text-blue-900 font-bold text-3xl mb-6;
+}
+.container div {
+  @apply flex flex-wrap;
+}
+.container div hr {
+  @apply w-full h-2 mt-2;
+}
+
+.customModal {
+  @apply rounded-2xl w-3/4 max-w-none;
+}
+
+.editButton {
+  @apply mx-auto bg-blue-900 rounded-3xl px-12 py-2 pr-8 text-white font-bold mt-16 border-2 border-blue-900 bg-no-repeat bg-contain;
+  background-image: url(icons/pencil.svg);
+  background-size: 26px;
+  background-position: 10% 50%;
+}
+/*background-size: 24px;*/
+.editButton:hover {
+  @apply hover:bg-white hover:text-blue-900;
+  background-image: url(icons/pencil_blue.svg);
+}

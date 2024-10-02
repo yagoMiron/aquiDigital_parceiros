@@ -1,0 +1,46 @@
+.icon {
+  @apply text-blue-300 rounded-2xl mx-2 bg-no-repeat;
+  background-size: 24px;
+  background-position: 10% 50%;
+}
+.icon:hover,
+.active {
+  @apply text-blue-950;
+  background-color: #fff129;
+}
+
+.document {
+  background-image: url(icons/document_light.svg);
+}
+.document:hover,
+.document_active {
+  background-image: url(icons/document.svg);
+}
+
+.group {
+  background-image: url(icons/group_light.svg);
+}
+.group:hover,
+.group_active {
+  background-image: url(icons/group.svg);
+}
+
+.hands {
+  background-image: url(icons/hands-helping_light.svg);
+}
+.hands:hover,
+.hands_active {
+  background-image: url(icons/hands-helping.svg);
+}
+
+.bank {
+  background-image: url(icons/pig-piggy-bank_light.svg);
+}
+.bank:hover,
+.bank_active {
+  background-image: url(icons/pig-piggy-bank.svg);
+}
+
+.title {
+  @apply m-1 mx-10 ml-12 font-bold;
+}

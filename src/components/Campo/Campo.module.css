@@ -1,0 +1,12 @@
+.campo {
+  @apply flex flex-col w-full mb-2;
+}
+.campo label {
+  @apply text-left mx-1.5 text-blue-950 font-bold;
+}
+.campo input {
+  @apply w-full rounded-md border border-blue-950 text-blue-950 text-base py-2.5 px-4;
+}
+.campo input::placeholder {
+  @apply text-slate-400;
+}
